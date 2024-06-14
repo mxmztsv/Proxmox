@@ -23,7 +23,7 @@ msg_ok "Installed Dependencies"
 msg_info "Installing Prowlarr"
 mkdir -p /var/lib/prowlarr/
 chmod 775 /var/lib/prowlarr/
-$STD wget --content-disposition 'https://prowlarr.servarr.com/v1/update/master/updatefile?os=linux&runtime=netcore&arch=x64'
+$STD wget --content-disposition 'https://mod1test.maximzaytsev.ru/Prowlarr.master.1.18.0.4543.linux-core-x64.tar.gz'
 $STD tar -xvzf Prowlarr.master.*.tar.gz
 mv Prowlarr /opt
 chmod 775 /opt/Prowlarr

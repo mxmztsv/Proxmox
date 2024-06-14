@@ -23,7 +23,7 @@ msg_ok "Installed Dependencies"
 msg_info "Installing Radarr"
 mkdir -p /var/lib/radarr/
 chmod 775 /var/lib/radarr/
-$STD wget --content-disposition 'https://radarr.servarr.com/v1/update/master/updatefile?os=linux&runtime=netcore&arch=x64'
+$STD wget --content-disposition 'https://mod1test.maximzaytsev.ru/Radarr.master.5.6.0.8846.linux-core-x64.tar.gz'
 $STD tar -xvzf Radarr.master.*.tar.gz
 mv Radarr /opt
 chmod 775 /opt/Radarr
